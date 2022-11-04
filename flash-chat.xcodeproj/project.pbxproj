@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7317C03F29104F9E004D4B85 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7317C03E29104F9D004D4B85 /* GoogleService-Info.plist */; };
 		7317C0412915497B004D4B85 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7317C0402915497A004D4B85 /* Constants.swift */; };
+		7317C043291550C4004D4B85 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7317C042291550C4004D4B85 /* Message.swift */; };
 		7394F6252909765F00F45D03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7394F6242909765F00F45D03 /* AppDelegate.swift */; };
 		7394F6272909765F00F45D03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7394F6262909765F00F45D03 /* SceneDelegate.swift */; };
 		7394F6292909765F00F45D03 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7394F6282909765F00F45D03 /* WelcomeViewController.swift */; };
@@ -27,6 +28,7 @@
 		5D323E8990DD0762B2A8B575 /* Pods-flash-chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flash-chat.debug.xcconfig"; path = "Target Support Files/Pods-flash-chat/Pods-flash-chat.debug.xcconfig"; sourceTree = "<group>"; };
 		7317C03E29104F9D004D4B85 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7317C0402915497A004D4B85 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7317C042291550C4004D4B85 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		7394F6212909765F00F45D03 /* flash-chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "flash-chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7394F6242909765F00F45D03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7394F6262909765F00F45D03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 		7394F6382909772500F45D03 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				7317C042291550C4004D4B85 /* Message.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 				7394F6272909765F00F45D03 /* SceneDelegate.swift in Sources */,
 				7394F63E2909790F00F45D03 /* LoginViewController.swift in Sources */,
 				7317C0412915497B004D4B85 /* Constants.swift in Sources */,
+				7317C043291550C4004D4B85 /* Message.swift in Sources */,
 				7394F6402909793800F45D03 /* ChatViewController.swift in Sources */,
 				7394F63C2909788400F45D03 /* RegisterViewController.swift in Sources */,
 			);
